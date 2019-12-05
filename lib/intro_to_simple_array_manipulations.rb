@@ -23,7 +23,7 @@ def shift_with_args(array)
 end
 
 def using_concat(array1, array2)
-  array2.concat(array1)
+  array1.concat(array2)
 end
 
 def using_insert(array, element)
@@ -40,4 +40,8 @@ end
 
 def using_delete(array, string)
   array.delete(string)
+end
+
+def using_delete_at(array, interger)
+  array.delete(interger)
 end
